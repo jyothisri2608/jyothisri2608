@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+  char a[200];
+  printf("enter the sentences:");
+  gets(a);
+  int len=strlen(a);
+  int count=0;
+  for(int i=0;i<len;i++)
+  {
+      if(a[i]==' ')
+
+      count=count+1;
+  }
+  printf("the no.of word=%d",count+1);
+}
+enter the sentences:Hi hello priya
+the no.of word=3
