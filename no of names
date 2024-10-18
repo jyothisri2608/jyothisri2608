@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char name[10][10];
+    int a;
+    printf("enter no.of names:");
+    scanf("%d",&a);
+    for(int i=0;i<a;i++)
+    {
+        scanf("%s",name[i]);
+    }
+    printf("\n the names are as follows:");
+    for(int i=0;i<a;i++)
+    {
+        printf("\n name id %d,%s",i+1,name[i]);
+    }
+}
+enter no.of names:3
+ramya
+jyoshana
+sai
+
+ the names are as follows:
+ name id 1,ramya
+ name id 2,jyoshana
+ name id 3,sai
